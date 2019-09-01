@@ -35,6 +35,7 @@ public class SampleController {
 	public Map<String,String> returnCreate(){
 		Map<String,String> map = new HashMap<>();
 		map.put("name", "kiss");
+		System.out.println("这是master");
 		return map;
 	}
 	
